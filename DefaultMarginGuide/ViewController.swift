@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         
         view.addSubview(redView)
         
+        // default margin guide
+        // adds default margin as rectangular area
         NSLayoutConstraint.activate([
             redView.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
             redView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
